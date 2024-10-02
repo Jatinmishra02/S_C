@@ -1,0 +1,81 @@
+/* Navbar container remains the same */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: green;
+    margin: 0;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.search-bar .search-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar .search-button i {
+    font-size: 16px;
+}
+
+/* Nav links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Cart Info */
+.cart-info {
+    display: flex;
+    align-items: center;
+}
+
+.cart-info p {
+    margin: 0 10px;
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+.cart-icon {
+    font-size: 24px;
+    color: green;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-icon .fa-shopping-cart {
+    font-size: 24px;
+}
